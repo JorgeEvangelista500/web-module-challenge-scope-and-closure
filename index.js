@@ -33,7 +33,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
 
   2. Which of the two uses a closure? How can you tell?
 
-  counter 2, because is using count which is defined in the global scope 
+  counter 2, because is using count which is defined in the global scope (it reaches outside to get count)
 
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
